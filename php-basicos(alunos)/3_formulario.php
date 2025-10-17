@@ -29,8 +29,8 @@
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // Recebe os valores dos inputs (No formulario)
             $nome = $_POST['nome'];
-            $emial = $_POST['email'];
-            $telefone = $_POST['telefone']
+            $email = $_POST['email'];
+            $telefone = $_POST['telefone'];
 
             echo "<h2> Dados recebidos:</h2>";
             echo "Nome: $nome <br>";
@@ -38,5 +38,5 @@
             echo "Telefone: $telefone <br>";
         }
     ?>
-0,</body>
+</body>
 </html>
