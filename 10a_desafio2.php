@@ -9,7 +9,7 @@
     <label for="nome">Produto  :</label>
     <input type="text" name="nome" required><br>
 
-    <label for="preco">Preço (R$):</label>
+    <label for="preco">Preço:</label>
     <input type="number" name="preco" step="0.01" required><br>
 
     <button type="submit">Cadastrar</button>
